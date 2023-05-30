@@ -89,9 +89,9 @@ function update(event: MouseEvent) {
 }
 
 function jsonUpload(event) {
-    this.selectedFile = event.target.files[0];
+    const file = event.target.files[0];
     const fileReader = new FileReader();
-    fileReader.readAsText(this.selectedFile, "UTF-8");
+    fileReader.readAsText(file, "UTF-8");
     fileReader.onload = () => {
         pathJSON = JSON.parse(fileReader.result);
         generatePoints();

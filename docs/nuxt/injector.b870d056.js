@@ -1,0 +1,1 @@
+import{u as e}from"./composables.9eb85df2.js";import{a as o,e as t,o as s}from"./entry.739690eb.js";const n={class:"h-screen pt-20 flex flex-col"},p=o({__name:"injector",setup(a){return e({title:"Replay Toolbox"}),(c,l)=>(s(),t("div",n," This tool is not implemented yet. "))}});export{p as default};
