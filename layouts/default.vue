@@ -30,6 +30,8 @@ useHead({
 body {
     margin: 0;
     background: linear-gradient(0deg, #9B927B, #B7AC90);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-size: 16px;
     color: #121212;
     font-family: Montserrat;
